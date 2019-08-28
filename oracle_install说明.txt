@@ -1,0 +1,10 @@
+root  1脚本执行完毕  reboot
+root  2脚本执行
+oracle 3脚本执行
+	root
+	sh /u01/app/oraInventory/orainstRoot.sh
+	sh /u01/app/oracle/product/11.2.0/db_1/root.sh
+oracle 4脚本执行
+	source .bash_profile,直到可以自动补全netca和dbca等命令为止
+参考5脚本测试
+
